@@ -214,12 +214,16 @@ export default {
                 website: null,
                 address: {
                     city: null,
-                    geo: {},
+                    geo: {lat:null, lng:null},
                     street: null,
                     suite: null,
-                    zipcode: null,
+                    zipcode: null
                 },
-
+                company:{
+                    bs: null,
+                    catchPhrase: null,
+                    name: null
+                }
             }
         }
     },
